@@ -9,12 +9,15 @@ Given the dataset, this test deals with simple issues in the dataset that could 
 
 The problem can be solved by standardization practices. Common problems include:
 
-* File Format Issue:
-        - Given file format does not match the expected/agreed upon format.
-        - A simple test for these issues is to try loading the data into the analytics stack.
-* Column Mapping Issues _Implemented_:
-        - Given dataset, and expected columns, the columns interpreted by the reader are different from expected.
-        - This could happen for a variety of reasons including missing features, as well as file format issues (expected comma as delimiter but got tabs, etc.).
+
+1.  File Format Issue:
+    1. Given file format does not match the expected/agreed upon format.
+    2. A simple test for these issues is to try loading the data into the analytics stack.
+
+2. Column Mapping Issues _Implemented_:
+    1. Given dataset, and expected columns, the columns interpreted by the reader are different from expected.
+    2. This could happen for a variety of reasons including missing features, as well as file format issues (expected comma as delimiter but got tabs, etc.).
+
 
 Tracking the issues also allows to add these issues into an ongoing test framework, to avoid future issues of similar types.
 
