@@ -23,11 +23,11 @@ A step by step series of examples that tell you how to get a development env run
 After cloning the repository, run the following command in you shell in the root directopry of the project to download all packages required to run the code.
 
 ```
-pip install -r requirements.text
+pip install -r requirements.txt
 ```
 
 
-## Running the tests
+## Running the Environment Test
 
 To make sure that your environment is running correctly run the test housed in /src/test.py
 
@@ -39,7 +39,7 @@ The test reads a file from the [README](https://raw.githubusercontent.com/ToJen/
 
 ### Validating The Test
 
-The test creates output files, and console output.
+The test creates output files, and console output. A successful test run with no error messages indicates that the environment has been setup correctly.
 
 ```
 ###########################################################
