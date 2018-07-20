@@ -3,6 +3,7 @@
 """
 
 import urllib.request
+import json
 
 
 def url_text_reader(url):
@@ -28,3 +29,14 @@ def writer(text, filename):
             f.write(line)
     f.close()
     return True
+
+
+def read_json(file_path):
+    """
+
+    :param file_path:
+    :return:
+    """
+    with open(file_path) as data_file:
+        data = json.load(data_file)
+    return data

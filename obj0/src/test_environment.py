@@ -23,5 +23,5 @@ def test_environment():
         print('###########################################################')
 
 
-if __name__ == "__main__":
-    test_environment()
+# if __name__ == "__main__":
+#     test_environment()
