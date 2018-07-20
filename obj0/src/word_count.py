@@ -63,6 +63,3 @@ def pre_processing():
     text = url_text_reader(url="https://raw.githubusercontent.com/ToJen/Quorum-Enterprise-Blockchain/master/README.md")
     writer(text, filepath)
     return filepath
-
-
-word_count()
