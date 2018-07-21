@@ -32,16 +32,27 @@ Given the dataset, the most important data integrity questions to ask the datase
 
 ### Issues in Dataset
 
+#### Non Identifiable Issues
+
+| Issue | Issue Tye |
+| --- | --- | --- | --- | --- | --- | --- |
+| Data Hygiene | Missing Feature Values due to Data Collection Errors |
+| Data Hygiene | Loss of Data due to manual entry errors or System Errors Upstream |
+| Outliers | Custom Anomaly Detection |
+| Data Quality | Selection Bias |
+| Data Quality  | Attrition |
+| Research Readiness | Ability to Join with other datasets |
+
 {% tabs %}
 {% tab title="Non Identifiable Issues" %}
-| **Issue**  | **Issue Type** |
+| **`Issue`**  | **`Issue Type`** |
 | --- | --- | --- | --- | --- | --- | --- |
-| Missing Feature Values due to Data Collection Errors | Data Hygiene |
-| Loss of Data due to Manual Entry Errors or System Errors Upstream | Data Hygiene |
-| Custom Anomaly Detection | Outliers |
-| Selection Bias | Data Quality |
-| Attrition | Data Quality |
-| Ability to Join with other Datasets | Research Readiness |
+| `Missing Feature Values due to Data Collection Errors` | `Data Hygiene` |
+| `Loss of Data due to Manual Entry Errors or System Errors Upstream` | `Data Hygiene` |
+| `Custom Anomaly Detection` | `Outliers` |
+| `Selection Bias` | `Data Quality` |
+| `Attrition` | `Data Quality` |
+| `Ability to Join with other Datasets` | `Research Readiness` |
 {% endtab %}
 
 {% tab title="Identifiable Issues" %}
@@ -54,8 +65,6 @@ Given the dataset, the most important data integrity questions to ask the datase
 {% endtabs %}
 
 
-
-### Non Identifiable Issues
 
 #### Missing Feature Values due to Data Collection Errors
 
@@ -167,7 +176,7 @@ In data mining, **anomaly detection** \(also outlier **detection**\) is the iden
 
 #### Data Quality Tests
 
-Data Quality Tests have been carried out 
+Data Quality Tests have been carried out keeping in mind the 
 
 #### 
 
