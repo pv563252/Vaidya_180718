@@ -1,9 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="fc1a999f-5fe5-484b-a02c-064f1b2afda6" name="Default" comment="">
-      <change beforePath="$PROJECT_DIR$/obj1/src/test.md" beforeDir="false" afterPath="$PROJECT_DIR$/obj1/src/test.md" afterDir="false" />
-    </list>
+    <list default="true" id="fc1a999f-5fe5-484b-a02c-064f1b2afda6" name="Default" comment="" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -37,8 +35,8 @@
         <entry file="file://$PROJECT_DIR$/obj1/src/test.md">
           <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
             <state split_layout="SPLIT">
-              <first_editor relative-caret-position="433">
-                <caret line="183" column="55" selection-start-line="183" selection-start-column="55" selection-end-line="183" selection-end-column="55" />
+              <first_editor relative-caret-position="463">
+                <caret line="218" lean-forward="true" selection-start-line="218" selection-end-line="218" />
               </first_editor>
               <second_editor />
             </state>
@@ -138,19 +136,6 @@
               <item name="Vaidya_180718" type="462c0819:PsiDirectoryNode" />
               <item name="obj1" type="462c0819:PsiDirectoryNode" />
               <item name="code" type="462c0819:PsiDirectoryNode" />
-              <item name="data_hygiene" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="Vaidya_180718" type="b2602c69:ProjectViewProjectNode" />
-              <item name="Vaidya_180718" type="462c0819:PsiDirectoryNode" />
-              <item name="obj1" type="462c0819:PsiDirectoryNode" />
-              <item name="out" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="Vaidya_180718" type="b2602c69:ProjectViewProjectNode" />
-              <item name="Vaidya_180718" type="462c0819:PsiDirectoryNode" />
-              <item name="obj1" type="462c0819:PsiDirectoryNode" />
-              <item name="out" type="462c0819:PsiDirectoryNode" />
               <item name="data_hygiene" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
@@ -337,7 +322,6 @@
   </component>
   <component name="ToolWindowManager">
     <frame x="120" y="46" width="1400" height="1000" extended-state="0" />
-    <editor active="true" />
     <layout>
       <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.3207143" />
       <window_info anchor="bottom" id="TODO" order="6" />
@@ -347,7 +331,7 @@
       <window_info anchor="bottom" id="Python Console" order="7" />
       <window_info anchor="bottom" id="Run" order="2" weight="0.32937366" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
-      <window_info anchor="bottom" id="Terminal" order="7" visible="true" weight="0.32937366" />
+      <window_info anchor="bottom" id="Terminal" order="7" visible="true" weight="0.34449244" />
       <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.39956802" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
@@ -393,12 +377,6 @@
     </breakpoint-manager>
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/obj1/out/data_anomaly_detection/bucket_test/ER34106_anomalies.csv">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/obj1/out/data_anomaly_detection/bucket_test/ER34105_anomalies.csv">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
     <entry file="file://$PROJECT_DIR$/obj1/out/data_anomaly_detection/bucket_test/ER34103_anomalies.csv">
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
@@ -636,11 +614,17 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/obj1/out/data_quality/statistical_summary.csv">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/obj1/out/data_anomaly_detection/testoutput.txt">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
     <entry file="file://$PROJECT_DIR$/obj1/src/test.md">
       <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
         <state split_layout="SPLIT">
-          <first_editor relative-caret-position="433">
-            <caret line="183" column="55" selection-start-line="183" selection-start-column="55" selection-end-line="183" selection-end-column="55" />
+          <first_editor relative-caret-position="463">
+            <caret line="218" lean-forward="true" selection-start-line="218" selection-end-line="218" />
           </first_editor>
           <second_editor />
         </state>
