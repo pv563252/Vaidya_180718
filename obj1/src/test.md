@@ -7,7 +7,7 @@ description: >-
 
 # Objective 1: Data Integrity
 
-### Data Integrity and Data Readiness Levels 
+## Data Integrity and Data Readiness Levels 
 
 Given the dataset, the most important data integrity questions to ask the dataset are:
 
@@ -30,9 +30,10 @@ Given the dataset, the most important data integrity questions to ask the datase
 * Research Readiness:
   1. Ability to Fuse with Other Datasets
 
-### Issues in Dataset
 
-#### Non Identifiable Issues
+## Issues in Dataset
+
+### Non Identifiable Issues
 
 | Issue | Issue Tye |
 | ---   | --- |
@@ -44,45 +45,44 @@ Given the dataset, the most important data integrity questions to ask the datase
 | Research Readiness | Ability to Join with other datasets |
 
 
-
-#### Missing Feature Values due to Data Collection Errors
+### Missing Feature Values due to Data Collection Errors
 
 1. The issue addresses the question _How were the missing values dealt with?_
 2. The Data Dictionary Document provides an overview of how the missing values are dealt with. For eg. Code '0' for no response in some cases.
 3. But even for Code '0', there are multiple reasons for the error, if it exists. There are also cases where represents valid values. 
 
-#### Loss of Data due to Manual Entry Errors or System Errors Upstream
+### Loss of Data due to Manual Entry Errors or System Errors Upstream
 
 1. Data could have been corrupted due to manual data entry errors in the upstream process during De-Identification, or other tasks.
 2. Loss of Information during Upstream automated analysis could also happen based on treatment of feature data types. For example: conversion of base float values to integers in different systems, etc.
 3. Manual Errors such as opening the file in excel, sorting by one column, without sorting the entire dataset. 
 4. Some algorithms exist to test this, but a better understanding of the upstream process would allow for a better test suite recommendation.
 
-#### Custom Outlier Detection
+### Custom Outlier Detection
 
 1. In data mining, **anomaly detection** \(also outlier **detection**\) is the identification of items, events or observations which do not conform to an expected pattern or other items in a dataset.
 2. Based on the use-case, custom anomaly detection logic can be achieved to analyze any new data for unsupported or anomalous values. 
 
-#### Selection Bias
+### Selection Bias
 
 1. In statistics, self-selection bias arises in any situation in which individuals select themselves into a group, causing a biased sample with nonprobability sampling. Makes causation more difficult.
 2. It is commonly used to describe situations where the characteristics of the people which cause them to select themselves in the group create abnormal or undesirable conditions in the group.
 3. It is closely related to the non-response bias, describing when the group of people responding has different responses than the group of people not responding.
 4. To test this, a truth or baseline test is needed. 
 
-#### Attrition
+### Attrition
 
 1. In order to have this view of the data, we would need to conduct year over year analysis, which would include fusing datasets together.
 2. An attrition rate of under 5% is usually no concern \(Schulz and Grimes, 2002\), while rates in excess of 20% may be cause for concern. However, these aren’t steadfast rules — a study with a low attrition rate might be more susceptible to bias than a study with a higher attrition rate if the drop-outs have very unique characteristics.
 
-#### Ability to Fuse with Other Datasets
+### Ability to Fuse with Other Datasets
 
 1. This could include availability of join keys or mapping tables that join this dataset to other internal and external datasets. 
 2. In the absence of these join keys, or where a join is not possible, computing clusters and cluster distance to get a _close match_.
 
 
 
-### Identifiable Issues
+## Identifiable Issues
 
 #### Ground Zero Test
 
@@ -108,7 +108,18 @@ File Format Tests:
    1. A simple Feature Presence was implemented in order to analyze the presence of all features.
    2. The implementation is designed to make sure that low-level error details are caught. 
 
-#### Data Hygiene: Incorrect Features Values due to Data Errors
+*Comparing Costs of Tests*
+
+
+| Test | Cost | Code Dir | Output Dir |
+| ---   | --- | --- | --- | 
+| Path Parsing | O(len of path) | NA | NA|
+| Data Load Test | O(size of dataframe) | NA | NA|
+| Lower Level Test | O(size of dataframe) | /code/ground_zero | /out/ground_zero |
+
+
+
+### Data Hygiene: Incorrect Features Values due to Data Errors
 
 The test defined in this test suite pertain to understanding the underlying feature values in order to establish the correctness of feature values, as well as handle missing values. 
 
@@ -133,7 +144,18 @@ Data Error Tests:
    2. The test filtering the column by checking with respect to the expected range. 
    3. The implementation is designed to make sure that low-level error details are caught. 
 
-#### Data Outliers Test: Unexpected Feature Values or Anomalies 
+*Comparing Costs of Tests*
+
+
+| Test | Cost | Code Dir | Output Dir |
+| ---   | --- | --- | --- | 
+| Aggregate Test | O(size of dataframe) | NA | NA|
+| Expected Data Type | O(size of dataframe) | /code/data_hygiene | /out/data_hygiene |
+| Range Test | O(size of dataframe) | /code/data_hygiene | /out/data_hygiene/range_tests |
+
+
+
+### Data Outliers Test: Unexpected Feature Values or Anomalies 
 
 In data mining, **anomaly detection** \(also outlier **detection**\) is the identification of items, events or observations which do not conform to an expected pattern or other items in a dataset.
 
@@ -173,3 +195,17 @@ Data Quality Tests have been carried out keeping in mind the Data quality tolera
    1. Given that we have no understanding of the truth-set or training data, this technique could not be implemented at this time. 
    2. This technique could be implemented once we have a better understanding of the truth set. 
    3. Decision Trees can be used to select the useful data, or data quality. 
+   
+   
+###Comapring Costs of Tests
+
+
+| Test | Cost | Code Dir | Output Dir |
+| ---   | --- | --- | --- | 
+| Path Parsing | O(len of path) | NA | NA|
+| Data Load Test | O(size of dataframe) | NA | NA|
+| Lower Level Test | O(size of dataframe) | /code/ground_zero | /out/ground_zero |
+
+| Data Quality | Selection Bias |
+| Data Quality  | Attrition |
+| Research Readiness | Ability to Join with other datasets |

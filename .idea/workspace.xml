@@ -2,20 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="fc1a999f-5fe5-484b-a02c-064f1b2afda6" name="Default" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/obj0/src/__init__.py" beforeDir="false" afterPath="$PROJECT_DIR$/obj0/src/__init__.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/obj0/src/test_environment.py" beforeDir="false" afterPath="$PROJECT_DIR$/obj0/src/test_environment.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/obj0/src/word_count.py" beforeDir="false" afterPath="$PROJECT_DIR$/obj0/src/word_count.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/obj1/code/data_anomaly_detection/__init__.py" beforeDir="false" afterPath="$PROJECT_DIR$/obj1/code/data_anomaly_detection/__init__.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/obj1/code/data_anomaly_detection/bucketing_for_variables.py" beforeDir="false" afterPath="$PROJECT_DIR$/obj1/code/data_anomaly_detection/bucketing_for_variables.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/obj1/code/data_hygiene/__init__.py" beforeDir="false" afterPath="$PROJECT_DIR$/obj1/code/data_hygiene/__init__.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/obj1/code/data_hygiene/feature_range.py" beforeDir="false" afterPath="$PROJECT_DIR$/obj1/code/data_hygiene/feature_range.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/obj1/code/data_hygiene/missing_feature_values.py" beforeDir="false" afterPath="$PROJECT_DIR$/obj1/code/data_hygiene/incorrect_feature_values.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/obj1/code/data_quality/__init__.py" beforeDir="false" afterPath="$PROJECT_DIR$/obj1/code/data_quality/__init__.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/obj1/code/ground_zero_test/__init__.py" beforeDir="false" afterPath="$PROJECT_DIR$/obj1/code/ground_zero_test/__init__.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/obj1/code/ground_zero_test/data_format.py" beforeDir="false" afterPath="$PROJECT_DIR$/obj1/code/ground_zero_test/data_format.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/obj1/code/ground_zero_test/file_columns.py" beforeDir="false" afterPath="$PROJECT_DIR$/obj1/code/ground_zero_test/file_columns.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/obj1/src/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/obj1/src/README.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/obj1/src/test.md" beforeDir="false" afterPath="$PROJECT_DIR$/obj1/src/test.md" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
@@ -46,12 +33,12 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="README.md" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/obj1/src/README.md">
+      <file leaf-file-name="test.md" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/obj1/src/test.md">
           <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
             <state split_layout="SPLIT">
-              <first_editor relative-caret-position="1380">
-                <caret line="92" lean-forward="true" selection-start-line="92" selection-end-line="92" />
+              <first_editor relative-caret-position="433">
+                <caret line="183" column="55" selection-start-line="183" selection-start-column="55" selection-end-line="183" selection-end-column="55" />
               </first_editor>
               <second_editor />
             </state>
@@ -113,12 +100,13 @@
         <option value="$PROJECT_DIR$/obj1/code/data_hygiene/missing_feature_values.py" />
         <option value="$PROJECT_DIR$/obj1/code/data_hygiene/feature_range.py" />
         <option value="$PROJECT_DIR$/obj1/src/README.md" />
+        <option value="$PROJECT_DIR$/obj1/src/test.md" />
       </list>
     </option>
   </component>
   <component name="ProjectFrameBounds">
-    <option name="x" value="294" />
-    <option name="y" value="52" />
+    <option name="x" value="120" />
+    <option name="y" value="46" />
     <option name="width" value="1400" />
     <option name="height" value="1000" />
   </component>
@@ -164,23 +152,6 @@
               <item name="obj1" type="462c0819:PsiDirectoryNode" />
               <item name="out" type="462c0819:PsiDirectoryNode" />
               <item name="data_hygiene" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="Vaidya_180718" type="b2602c69:ProjectViewProjectNode" />
-              <item name="Vaidya_180718" type="462c0819:PsiDirectoryNode" />
-              <item name="obj1" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="Vaidya_180718" type="b2602c69:ProjectViewProjectNode" />
-              <item name="Vaidya_180718" type="462c0819:PsiDirectoryNode" />
-              <item name="obj2" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="Vaidya_180718" type="b2602c69:ProjectViewProjectNode" />
-              <item name="Vaidya_180718" type="462c0819:PsiDirectoryNode" />
-              <item name="obj2" type="462c0819:PsiDirectoryNode" />
-              <item name="out" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="Vaidya_180718" type="b2602c69:ProjectViewProjectNode" />
@@ -365,9 +336,10 @@
     <servers />
   </component>
   <component name="ToolWindowManager">
-    <frame x="294" y="52" width="1400" height="1000" extended-state="0" />
+    <frame x="120" y="46" width="1400" height="1000" extended-state="0" />
+    <editor active="true" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.3207143" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.3207143" />
       <window_info anchor="bottom" id="TODO" order="6" />
       <window_info anchor="bottom" id="Event Log" order="7" side_tool="true" />
       <window_info anchor="bottom" id="Find" order="1" weight="0.32937366" />
@@ -375,7 +347,7 @@
       <window_info anchor="bottom" id="Python Console" order="7" />
       <window_info anchor="bottom" id="Run" order="2" weight="0.32937366" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
-      <window_info active="true" anchor="bottom" id="Terminal" order="7" visible="true" weight="0.32937366" />
+      <window_info anchor="bottom" id="Terminal" order="7" visible="true" weight="0.32937366" />
       <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.39956802" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
@@ -421,9 +393,6 @@
     </breakpoint-manager>
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/obj1/out/data_anomaly_detection/bucket_test/ER34110_anomalies.csv">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
     <entry file="file://$PROJECT_DIR$/obj1/out/data_anomaly_detection/bucket_test/ER34106_anomalies.csv">
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
@@ -650,6 +619,14 @@
     <entry file="file://$PROJECT_DIR$/obj1/code/data_hygiene/range.json">
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
+    <entry file="file://$PROJECT_DIR$/obj1/src/README.md">
+      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
+        <state split_layout="SPLIT">
+          <first_editor />
+          <second_editor />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/obj1/code/data_hygiene/feature_range.py">
       <provider selected="true" editor-type-id="text-editor">
         <state>
@@ -659,11 +636,11 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/obj1/src/README.md">
+    <entry file="file://$PROJECT_DIR$/obj1/src/test.md">
       <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
         <state split_layout="SPLIT">
-          <first_editor relative-caret-position="1380">
-            <caret line="92" lean-forward="true" selection-start-line="92" selection-end-line="92" />
+          <first_editor relative-caret-position="433">
+            <caret line="183" column="55" selection-start-line="183" selection-start-column="55" selection-end-line="183" selection-end-column="55" />
           </first_editor>
           <second_editor />
         </state>
