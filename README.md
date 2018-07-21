@@ -1,6 +1,6 @@
 # Objective 0: Environment Setup
 
-### Analytic Environment
+## Analytic Environment
 
 The table below outlines the Spark environment setup, along with the versions of the environment, that I have used moving forward in the test:
 
@@ -14,6 +14,49 @@ The table below outlines the Spark environment setup, along with the versions of
 | PySpark  | py4j-0.10.4 pyspark-2.2.0 |
 
 
+ ## Getting Started
+ 
+These instructions will get you a copy of the project up and running on your local machine for development and testing purposes.
+ 
+ ### Prerequisites
+ 
+ In order to run this code, your system must have the Spark already installed.
+ 
+ ```
+ Spark Version 2.2.0
+ Python 3.6.5
+ ```
+ 
+ ### Installing
+ 
+ A step by step series of examples that tell you how to get a development env running.
+ 
+ After cloning the repository, run the following command in you shell in the root directopry of the project to download all packages required to run the code.
+ 
+ ```
+ pip install -r requirements.txt
+ ```
+ 
+ 
+ ## Running the Environment Test
+ 
+ To make sure that your environment is running correctly run the test housed in /src/test.py
+ 
+ 
+ ### Test Run
+ 
+ The test reads a file from the [README](https://raw.githubusercontent.com/ToJen/Quorum-Enterprise-Blockchain/master/README.md), and counts the number of words in the file.
+ 
+ 
+ ### Validating The Test
+ 
+ The test creates output files, and console output. A successful test run with no error messages indicates that the environment has been setup correctly.
+ 
+ ```
+ ###########################################################
+ Test Ran Successfully!
+ ###########################################################
+```
 
 ### Objective 0.1
 
@@ -98,3 +141,4 @@ class ApacheSpark < Formula
   end
 end
 ```
+

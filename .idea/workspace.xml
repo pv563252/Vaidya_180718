@@ -1,7 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="fc1a999f-5fe5-484b-a02c-064f1b2afda6" name="Default" comment="" />
+    <list default="true" id="fc1a999f-5fe5-484b-a02c-064f1b2afda6" name="Default" comment="">
+      <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
+    </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -31,12 +33,24 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="test.md" pinned="false" current-in-tab="true">
+      <file leaf-file-name="test.md" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/obj1/src/test.md">
           <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
             <state split_layout="SPLIT">
               <first_editor relative-caret-position="463">
                 <caret line="218" lean-forward="true" selection-start-line="218" selection-end-line="218" />
+              </first_editor>
+              <second_editor />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="README.md" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/README.md">
+          <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
+            <state split_layout="SPLIT">
+              <first_editor relative-caret-position="172">
+                <caret line="58" lean-forward="true" selection-start-line="58" selection-end-line="58" />
               </first_editor>
               <second_editor />
             </state>
@@ -59,7 +73,6 @@
     <option name="CHANGED_PATHS">
       <list>
         <option value="$PROJECT_DIR$/obj0/src/test.py" />
-        <option value="$PROJECT_DIR$/README.md" />
         <option value="$PROJECT_DIR$/requirements.txt" />
         <option value="$PROJECT_DIR$/utils/extractor_utils.py" />
         <option value="$PROJECT_DIR$/utils/test_utils.py" />
@@ -99,6 +112,7 @@
         <option value="$PROJECT_DIR$/obj1/code/data_hygiene/feature_range.py" />
         <option value="$PROJECT_DIR$/obj1/src/README.md" />
         <option value="$PROJECT_DIR$/obj1/src/test.md" />
+        <option value="$PROJECT_DIR$/README.md" />
       </list>
     </option>
   </component>
@@ -322,8 +336,9 @@
   </component>
   <component name="ToolWindowManager">
     <frame x="120" y="46" width="1400" height="1000" extended-state="0" />
+    <editor active="true" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.3207143" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.3207143" />
       <window_info anchor="bottom" id="TODO" order="6" />
       <window_info anchor="bottom" id="Event Log" order="7" side_tool="true" />
       <window_info anchor="bottom" id="Find" order="1" weight="0.32937366" />
@@ -331,7 +346,7 @@
       <window_info anchor="bottom" id="Python Console" order="7" />
       <window_info anchor="bottom" id="Run" order="2" weight="0.32937366" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
-      <window_info anchor="bottom" id="Terminal" order="7" visible="true" weight="0.34449244" />
+      <window_info active="true" anchor="bottom" id="Terminal" order="7" visible="true" weight="0.34449244" />
       <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.39956802" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
@@ -377,9 +392,6 @@
     </breakpoint-manager>
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/obj1/out/data_anomaly_detection/bucket_test/ER34103_anomalies.csv">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
     <entry file="file://$PROJECT_DIR$/obj1/out/data_anomaly_detection/bucket_test/ER34102_anomalies.csv">
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
@@ -625,6 +637,16 @@
         <state split_layout="SPLIT">
           <first_editor relative-caret-position="463">
             <caret line="218" lean-forward="true" selection-start-line="218" selection-end-line="218" />
+          </first_editor>
+          <second_editor />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/README.md">
+      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
+        <state split_layout="SPLIT">
+          <first_editor relative-caret-position="172">
+            <caret line="58" lean-forward="true" selection-start-line="58" selection-end-line="58" />
           </first_editor>
           <second_editor />
         </state>
