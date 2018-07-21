@@ -43,27 +43,6 @@ Given the dataset, the most important data integrity questions to ask the datase
 | Data Quality  | Attrition |
 | Research Readiness | Ability to Join with other datasets |
 
-{% tabs %}
-{% tab title="Non Identifiable Issues" %}
-| **`Issue`**  | **`Issue Type`** |
-| --- | --- | --- | --- | --- | --- | --- |
-| `Missing Feature Values due to Data Collection Errors` | `Data Hygiene` |
-| `Loss of Data due to Manual Entry Errors or System Errors Upstream` | `Data Hygiene` |
-| `Custom Anomaly Detection` | `Outliers` |
-| `Selection Bias` | `Data Quality` |
-| `Attrition` | `Data Quality` |
-| `Ability to Join with other Datasets` | `Research Readiness` |
-{% endtab %}
-
-{% tab title="Identifiable Issues" %}
-| **Issue** | **Issue Type** |
-| --- | --- | --- | --- |
-| Incorrect Feature Values due to Data Errors | Data Hygiene |
-| Unexpected Feature Values or Anomalies | Data Outliers |
-| Analyzing the Data for Expected vs Observed Data Quality | Data Quality |
-{% endtab %}
-{% endtabs %}
-
 
 
 #### Missing Feature Values due to Data Collection Errors
