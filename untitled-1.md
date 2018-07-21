@@ -148,16 +148,31 @@ In data mining, **anomaly detection** \(also outlier **detection**\) is the iden
    2. PCA allows us to define the normal patterns, and these normal patterns can be used to identify outliers.
    3. Since PCA converts the feature space to another dimension feature space, makes the results difficult to communicate to stakeholders. 
 
-3. Anomaly Detections using Unsupervised Learning: Clustering **Implemented**
+3. Anomaly Detections using Unsupervised Learning: K-Means Clustering **Implemented**
    1. Given that we have no understanding of the truth-set or training data, we can use K-Means clustering, and Hierarchical K-Means clustering to fit the data.
    2. Build out the threshold with the cluster center to identify outliers.
    3. Easy to visualize and communicate. 
 
 #### Data Quality Tests
 
-Data Quality Tests have been carried out keeping in mind the 
+Data Quality Tests have been carried out keeping in mind the Data quality tolerance levels, the test aim is to provide a selection test for records in the dataset. Records with values below a certain threshold would be excluded from analysis.   
 
-#### 
+1. Statistical Grouped Summary based Classification **Implemented**
+
+   1. Statistical Summary of dataset features to measure counts the values in rows.  
+   2. Currently test implements for value '0'. Counts the number of occurrences of '0' in each record, and aggregates to compare with non '0' values.
+   3. The test is carried out with respect to responded features in 2011 slice of the dataset.  
+   4. The test assumes '0' values are undesirable, and tries to test if records have high zero values. 
+
+2. Unsupervised Classification:
+
+   1. Given that we have no understanding of the truth-set or training data, we can use SVM.
+   2. SVM, like PCA, uses the Kernel Trick and thus the results, at this time would not have been easy to communicate. 
+
+3. Supervised Classification:
+   1. Given that we have no understanding of the truth-set or training data, this technique could not be implemented at this time. 
+   2. This technique could be implemented once we have a better understanding of the truth set. 
+   3. Decision Trees can be used to select the useful data, or data quality. 
 
 
 
