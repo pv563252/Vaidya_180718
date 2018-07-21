@@ -17,7 +17,7 @@ def feature_values():
         begin_test_message("Data Hygiene: Feature Test Suite")
         df = pd.read_excel('/Users/pv/Desktop/jpmc_rse_assignment/jpmc_rse_assignment_data.xlsx')
         feature_type_test(df)
-        # feature_range_test(df)
+        feature_range_test(df)
     except Exception as e:
         print('################################################################################')
         print("An Error happened during Data Hygiene: Feature Test Suite Execution")

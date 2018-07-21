@@ -54,6 +54,6 @@ def convert_to_float(x, each):
     except Exception as e:
         print(e)
         print(each)
-        print(x)
-        print(type(x))
-        return 0
+        # print(x)
+        # print(type(x))
+    return  0
