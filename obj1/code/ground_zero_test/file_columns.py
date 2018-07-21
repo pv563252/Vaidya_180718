@@ -5,10 +5,10 @@ import os
 
 def test_headers(df_columns, header_path=os.getcwd()+'/headers.json'):
     """
-
-    :param df_columns:
-    :param header_path:
-    :return:
+    Test 1: Tests the presence of all Expected Features in the Dataset.
+    :param df_columns: Observed Features in the dataset.
+    :param header_path: path to header file that maintains the Expected Features in the dataset.
+    :return: Runs successfully for correct config of dataset, console outputs errors and root cause otherwise.
     """
     begin_test_message("Test 1: Feature Test.")
     headers = read_json(header_path)
@@ -21,10 +21,10 @@ def test_headers(df_columns, header_path=os.getcwd()+'/headers.json'):
 
 def missing_features(expected, found):
     """
-
-    :param expected:
-    :param found:
-    :return:
+    Test to detect any missing features from expected dataset.
+    :param expected: list of Expected Features.
+    :param found: list of Observed Features.
+    :return: Runs successfully for correct config of dataset, console outputs errors and root cause otherwise.
     """
     header_test = expected.difference(found)
     if len(header_test) > 0:
@@ -34,10 +34,10 @@ def missing_features(expected, found):
 
 def additional_features(expected, found):
     """
-
-    :param expected:
-    :param found:
-    :return:
+    Test to detect any additional features from expected dataset.
+    :param expected: list of Expected Features.
+    :param found: list of Observed Features.
+    :return: Runs successfully for correct config of dataset, console outputs errors and root cause otherwise.
     """
     header_test = found.difference(expected)
     if len(header_test) > 0:

@@ -2,15 +2,20 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="fc1a999f-5fe5-484b-a02c-064f1b2afda6" name="Default" comment="">
-      <change afterPath="$PROJECT_DIR$/obj1/code/data_anomaly_detection/bucketing_for_variables.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/obj1/code/data_quality/response_classification.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/obj1/code/data_anomaly_detection/clustering.py" beforeDir="false" afterPath="$PROJECT_DIR$/obj1/code/data_quality/data_quality.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/obj1/code/data_anomaly_detection/data_anomalies.py" beforeDir="false" afterPath="$PROJECT_DIR$/obj1/code/data_anomaly_detection/data_anomalies.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/obj1/code/data_bias/__init__.py" beforeDir="false" afterPath="$PROJECT_DIR$/obj1/code/data_quality/__init__.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/obj0/src/__init__.py" beforeDir="false" afterPath="$PROJECT_DIR$/obj0/src/__init__.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/obj0/src/test_environment.py" beforeDir="false" afterPath="$PROJECT_DIR$/obj0/src/test_environment.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/obj0/src/word_count.py" beforeDir="false" afterPath="$PROJECT_DIR$/obj0/src/word_count.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/obj1/code/data_anomaly_detection/__init__.py" beforeDir="false" afterPath="$PROJECT_DIR$/obj1/code/data_anomaly_detection/__init__.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/obj1/code/data_anomaly_detection/bucketing_for_variables.py" beforeDir="false" afterPath="$PROJECT_DIR$/obj1/code/data_anomaly_detection/bucketing_for_variables.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/obj1/code/data_hygiene/__init__.py" beforeDir="false" afterPath="$PROJECT_DIR$/obj1/code/data_hygiene/__init__.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/obj1/code/data_hygiene/feature_range.py" beforeDir="false" afterPath="$PROJECT_DIR$/obj1/code/data_hygiene/feature_range.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/obj1/out/data_hygiene/range_test/ER34102/high_anomalies.csv" beforeDir="false" afterPath="$PROJECT_DIR$/obj1/out/data_hygiene/range_test/ER34102/high_anomalies.csv" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/obj1/out/data_hygiene/range_test/ER34106/high_anomalies.csv" beforeDir="false" afterPath="$PROJECT_DIR$/obj1/out/data_hygiene/range_test/ER34106/high_anomalies.csv" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/obj1/code/data_hygiene/missing_feature_values.py" beforeDir="false" afterPath="$PROJECT_DIR$/obj1/code/data_hygiene/incorrect_feature_values.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/obj1/code/data_quality/__init__.py" beforeDir="false" afterPath="$PROJECT_DIR$/obj1/code/data_quality/__init__.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/obj1/code/ground_zero_test/__init__.py" beforeDir="false" afterPath="$PROJECT_DIR$/obj1/code/ground_zero_test/__init__.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/obj1/code/ground_zero_test/data_format.py" beforeDir="false" afterPath="$PROJECT_DIR$/obj1/code/ground_zero_test/data_format.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/obj1/code/ground_zero_test/file_columns.py" beforeDir="false" afterPath="$PROJECT_DIR$/obj1/code/ground_zero_test/file_columns.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/obj1/src/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/obj1/src/README.md" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
@@ -21,50 +26,34 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="response_classification.py" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/obj1/code/data_quality/response_classification.py">
+      <file leaf-file-name="incorrect_feature_values.py" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/obj1/code/data_hygiene/incorrect_feature_values.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="175">
-              <caret line="33" column="93" selection-start-line="33" selection-start-column="93" selection-end-line="33" selection-end-column="93" />
+            <state>
+              <caret column="1" selection-start-column="1" selection-end-column="1" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="feature_range.py" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/obj1/code/data_hygiene/feature_range.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state>
               <folding>
-                <element signature="e#10#19#0" expanded="true" />
+                <element signature="e#9#52#0" expanded="true" />
               </folding>
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="data_quality.py" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/obj1/code/data_quality/data_quality.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="286">
-              <caret line="25" column="7" lean-forward="true" selection-start-line="25" selection-start-column="7" selection-end-line="25" selection-end-column="7" />
-              <folding>
-                <element signature="e#0#19#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="data_anomalies.py" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/obj1/code/data_anomaly_detection/data_anomalies.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="630">
-              <caret line="42" column="12" lean-forward="true" selection-start-line="42" selection-start-column="12" selection-end-line="42" selection-end-column="12" />
-              <folding>
-                <element signature="e#0#19#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="bucketing_for_variables.py" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/obj1/code/data_anomaly_detection/bucketing_for_variables.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="316">
-              <caret line="66" selection-start-line="66" selection-end-line="76" selection-end-column="81" />
-              <folding>
-                <element signature="e#10#19#0" expanded="true" />
-              </folding>
+      <file leaf-file-name="README.md" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/obj1/src/README.md">
+          <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
+            <state split_layout="SPLIT">
+              <first_editor relative-caret-position="1380">
+                <caret line="92" lean-forward="true" selection-start-line="92" selection-end-line="92" />
+              </first_editor>
+              <second_editor />
             </state>
           </provider>
         </entry>
@@ -84,46 +73,52 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/obj0/src/word_count.py" />
         <option value="$PROJECT_DIR$/obj0/src/test.py" />
         <option value="$PROJECT_DIR$/README.md" />
         <option value="$PROJECT_DIR$/requirements.txt" />
         <option value="$PROJECT_DIR$/utils/extractor_utils.py" />
-        <option value="$PROJECT_DIR$/obj0/src/test_environment.py" />
         <option value="$PROJECT_DIR$/utils/test_utils.py" />
         <option value="$PROJECT_DIR$/obj1/code/ground_zero_test/column_values.py" />
         <option value="$PROJECT_DIR$/obj1/code/ground_zero_test/column_data_range.py" />
         <option value="$PROJECT_DIR$/obj1/code/ground_zero_test/Data Hygiene/missing_feature_test.py" />
         <option value="$PROJECT_DIR$/obj1/code/ground_zero_test/Data Hygiene/missing_values_test.py" />
-        <option value="$PROJECT_DIR$/obj1/code/ground_zero_test/data_format.py" />
         <option value="$PROJECT_DIR$/obj1/code/anomaly_detection/clustering.py" />
         <option value="$PROJECT_DIR$/utils/spark_utils.py" />
         <option value="$PROJECT_DIR$/obj1/out/ground_zero.py" />
         <option value="$PROJECT_DIR$/obj1/code/data_hygiene/feature_data_type.py" />
         <option value="$PROJECT_DIR$/obj1/code/data_hygiene/analyze_categorical_data.py" />
         <option value="$PROJECT_DIR$/obj1/code/data_hygiene/range.json" />
-        <option value="$PROJECT_DIR$/obj1/code/ground_zero_test/file_columns.py" />
         <option value="$PROJECT_DIR$/obj1/code/ground_zero_test/data_type_test.py" />
         <option value="$PROJECT_DIR$/obj1/code/data_hygiene/feature_type_test.py" />
         <option value="$PROJECT_DIR$/obj1/out/data_hygiene/testoutput.txt" />
         <option value="$PROJECT_DIR$/obj1/code/data_hygiene/feature_type.py" />
-        <option value="$PROJECT_DIR$/obj1/code/data_hygiene/missing_feature_values.py" />
         <option value="$PROJECT_DIR$/obj1/code/data_anomaly_detection/clustering.py" />
-        <option value="$PROJECT_DIR$/obj1/src/README.md" />
         <option value="$PROJECT_DIR$/obj1/code/data_anomaly_detection/extract_non_response.py" />
         <option value="$PROJECT_DIR$/obj1/code/data_anomaly_detection/bucketing_for_categorical_variables.py" />
-        <option value="$PROJECT_DIR$/obj1/code/data_hygiene/feature_range.py" />
-        <option value="$PROJECT_DIR$/obj1/code/data_anomaly_detection/bucketing_for_variables.py" />
         <option value="$PROJECT_DIR$/obj1/code/data_anomaly_detection/response_classification.py" />
         <option value="$PROJECT_DIR$/obj1/code/data_anomaly_detection/data_anomalies.py" />
         <option value="$PROJECT_DIR$/obj1/code/data_quality/data_quality.py" />
+        <option value="$PROJECT_DIR$/obj1/out/data_quality/testoutput.txt" />
         <option value="$PROJECT_DIR$/obj1/code/data_quality/response_classification.py" />
+        <option value="$PROJECT_DIR$/obj1/code/data_anomaly_detection/__init__.py" />
+        <option value="$PROJECT_DIR$/obj0/src/__init__.py" />
+        <option value="$PROJECT_DIR$/obj0/src/test_environment.py" />
+        <option value="$PROJECT_DIR$/obj0/src/word_count.py" />
+        <option value="$PROJECT_DIR$/obj1/code/data_anomaly_detection/bucketing_for_variables.py" />
+        <option value="$PROJECT_DIR$/obj1/code/data_hygiene/__init__.py" />
+        <option value="$PROJECT_DIR$/obj1/code/ground_zero_test/__init__.py" />
+        <option value="$PROJECT_DIR$/obj1/code/data_quality/__init__.py" />
+        <option value="$PROJECT_DIR$/obj1/code/ground_zero_test/data_format.py" />
+        <option value="$PROJECT_DIR$/obj1/code/ground_zero_test/file_columns.py" />
+        <option value="$PROJECT_DIR$/obj1/code/data_hygiene/missing_feature_values.py" />
+        <option value="$PROJECT_DIR$/obj1/code/data_hygiene/feature_range.py" />
+        <option value="$PROJECT_DIR$/obj1/src/README.md" />
       </list>
     </option>
   </component>
   <component name="ProjectFrameBounds">
-    <option name="x" value="851" />
-    <option name="y" value="23" />
+    <option name="x" value="294" />
+    <option name="y" value="52" />
     <option name="width" value="1400" />
     <option name="height" value="1000" />
   </component>
@@ -142,23 +137,6 @@
             <path>
               <item name="Vaidya_180718" type="b2602c69:ProjectViewProjectNode" />
               <item name="Vaidya_180718" type="462c0819:PsiDirectoryNode" />
-              <item name="obj0" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="Vaidya_180718" type="b2602c69:ProjectViewProjectNode" />
-              <item name="Vaidya_180718" type="462c0819:PsiDirectoryNode" />
-              <item name="obj0" type="462c0819:PsiDirectoryNode" />
-              <item name="out" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="Vaidya_180718" type="b2602c69:ProjectViewProjectNode" />
-              <item name="Vaidya_180718" type="462c0819:PsiDirectoryNode" />
-              <item name="obj0" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="Vaidya_180718" type="b2602c69:ProjectViewProjectNode" />
-              <item name="Vaidya_180718" type="462c0819:PsiDirectoryNode" />
               <item name="obj1" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
@@ -166,13 +144,6 @@
               <item name="Vaidya_180718" type="462c0819:PsiDirectoryNode" />
               <item name="obj1" type="462c0819:PsiDirectoryNode" />
               <item name="code" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="Vaidya_180718" type="b2602c69:ProjectViewProjectNode" />
-              <item name="Vaidya_180718" type="462c0819:PsiDirectoryNode" />
-              <item name="obj1" type="462c0819:PsiDirectoryNode" />
-              <item name="code" type="462c0819:PsiDirectoryNode" />
-              <item name="data_anomaly_detection" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="Vaidya_180718" type="b2602c69:ProjectViewProjectNode" />
@@ -185,21 +156,7 @@
               <item name="Vaidya_180718" type="b2602c69:ProjectViewProjectNode" />
               <item name="Vaidya_180718" type="462c0819:PsiDirectoryNode" />
               <item name="obj1" type="462c0819:PsiDirectoryNode" />
-              <item name="code" type="462c0819:PsiDirectoryNode" />
-              <item name="data_quality" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="Vaidya_180718" type="b2602c69:ProjectViewProjectNode" />
-              <item name="Vaidya_180718" type="462c0819:PsiDirectoryNode" />
-              <item name="obj1" type="462c0819:PsiDirectoryNode" />
               <item name="out" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="Vaidya_180718" type="b2602c69:ProjectViewProjectNode" />
-              <item name="Vaidya_180718" type="462c0819:PsiDirectoryNode" />
-              <item name="obj1" type="462c0819:PsiDirectoryNode" />
-              <item name="out" type="462c0819:PsiDirectoryNode" />
-              <item name="data_anomaly_detection" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="Vaidya_180718" type="b2602c69:ProjectViewProjectNode" />
@@ -352,7 +309,7 @@
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/obj1/code/data_hygiene/missing_feature_values.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/obj1/code/data_hygiene/incorrect_feature_values.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -408,8 +365,7 @@
     <servers />
   </component>
   <component name="ToolWindowManager">
-    <frame x="583" y="46" width="1400" height="1000" extended-state="0" />
-    <editor active="true" />
+    <frame x="294" y="52" width="1400" height="1000" extended-state="0" />
     <layout>
       <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.3207143" />
       <window_info anchor="bottom" id="TODO" order="6" />
@@ -417,9 +373,9 @@
       <window_info anchor="bottom" id="Find" order="1" weight="0.32937366" />
       <window_info anchor="bottom" id="Version Control" order="7" />
       <window_info anchor="bottom" id="Python Console" order="7" />
-      <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" weight="0.32937366" />
+      <window_info anchor="bottom" id="Run" order="2" weight="0.32937366" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
-      <window_info anchor="bottom" id="Terminal" order="7" weight="0.32937366" />
+      <window_info active="true" anchor="bottom" id="Terminal" order="7" visible="true" weight="0.32937366" />
       <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.39956802" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
@@ -465,84 +421,6 @@
     </breakpoint-manager>
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/obj1/out/data_hygiene/range_test/ER34106/high_anomalies.csv">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/obj1/code/data_hygiene/missing_value_handling.json">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/obj1/out/data_hygiene/testoutput.txt">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="503">
-          <caret line="27398" selection-start-line="27398" selection-end-line="27398" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/obj1/code/data_hygiene/feature_type.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="150">
-          <caret line="10" lean-forward="true" selection-start-line="10" selection-end-line="10" />
-          <folding>
-            <element signature="e#130#160#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/obj1/out/data_quality/testoutput.txt">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/obj1/src/README.md">
-      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
-        <state split_layout="FIRST">
-          <first_editor relative-caret-position="1055">
-            <caret line="105" column="4" selection-start-line="105" selection-start-column="4" selection-end-line="105" selection-end-column="4" />
-          </first_editor>
-          <second_editor />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/obj1/code/data_hygiene/missing_feature_values.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="450">
-          <caret line="30" lean-forward="true" selection-start-line="30" selection-end-line="30" />
-          <folding>
-            <element signature="e#10#29#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/obj1/out/data_anomaly_detection/testoutput.txt">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/obj1/out/data_hygiene/range_test/ER34102/high_anomalies.csv">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/obj1/out/data_anomaly_detection/bucket_test/ER30000_anomalies.csv">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/obj1/out/data_anomaly_detection/bucket_test/ER30001_anomalies.csv">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-3546">
-          <caret line="22" column="13" lean-forward="true" selection-start-line="22" selection-start-column="13" selection-end-line="22" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/obj1/out/data_anomaly_detection/bucket_test/ER34155_anomalies.csv">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-3516">
-          <caret line="26" column="12" lean-forward="true" selection-start-line="26" selection-start-column="12" selection-end-line="26" selection-end-column="12" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/obj1/out/data_anomaly_detection/bucket_test/ER34152_anomalies.csv">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/obj1/out/data_anomaly_detection/bucket_test/ER34133_anomalies.csv">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/obj1/out/data_anomaly_detection/bucket_test/ER34117_anomalies.csv">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
     <entry file="file://$PROJECT_DIR$/obj1/out/data_anomaly_detection/bucket_test/ER34110_anomalies.csv">
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
@@ -560,16 +438,6 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/obj1/out/data_anomaly_detection/bucket_test/ER30002_anomalies.csv">
       <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/obj1/code/data_hygiene/feature_range.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="240">
-          <caret line="16" column="45" selection-start-line="16" selection-start-column="4" selection-end-line="16" selection-end-column="45" />
-          <folding>
-            <element signature="e#9#52#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/obj1/out/data_anomaly_detection/bucket_test/ER34103_root_cause.csv">
       <provider selected="true" editor-type-id="text-editor" />
@@ -649,7 +517,7 @@
     <entry file="file://$PROJECT_DIR$/obj1/code/data_anomaly_detection/data_anomalies.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="630">
-          <caret line="42" column="12" lean-forward="true" selection-start-line="42" selection-start-column="12" selection-end-line="42" selection-end-column="12" />
+          <caret line="42" column="12" selection-start-line="42" selection-start-column="12" selection-end-line="42" selection-end-column="12" />
           <folding>
             <element signature="e#0#19#0" expanded="true" />
           </folding>
@@ -659,30 +527,145 @@
     <entry file="file://$PROJECT_DIR$/obj1/code/data_quality/data_quality.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="286">
-          <caret line="25" column="7" lean-forward="true" selection-start-line="25" selection-start-column="7" selection-end-line="25" selection-end-column="7" />
+          <caret line="25" column="7" selection-start-line="25" selection-start-column="7" selection-end-line="25" selection-end-column="7" />
           <folding>
             <element signature="e#0#19#0" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/obj1/code/data_anomaly_detection/bucketing_for_variables.py">
+    <entry file="file://$PROJECT_DIR$/obj1/out/ground_zero/testoutput.txt">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/obj1/out/data_quality/respondent_test/ER34112_root_cause.csv">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="316">
-          <caret line="66" selection-start-line="66" selection-end-line="76" selection-end-column="81" />
+        <state relative-caret-position="180">
+          <caret line="12" lean-forward="true" selection-start-line="12" selection-end-line="12" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/obj1/out/data_quality/testoutput.txt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="315">
+          <caret line="21" column="59" selection-start-line="21" selection-start-column="59" selection-end-line="21" selection-end-column="59" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/obj1/code/data_quality/response_classification.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="481">
+          <caret line="60" lean-forward="true" selection-start-line="60" selection-end-line="60" />
           <folding>
             <element signature="e#10#19#0" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/obj1/code/data_quality/response_classification.py">
+    <entry file="file://$PROJECT_DIR$/obj0/src/__init__.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="175">
-          <caret line="33" column="93" selection-start-line="33" selection-start-column="93" selection-end-line="33" selection-end-column="93" />
+        <state relative-caret-position="15">
+          <caret line="1" column="21" selection-start-line="1" selection-start-column="21" selection-end-line="1" selection-end-column="21" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/obj1/code/data_quality/__init__.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="15">
+          <caret line="1" column="21" selection-start-line="1" selection-start-column="21" selection-end-line="1" selection-end-column="21" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/obj1/code/ground_zero_test/__init__.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="15">
+          <caret line="1" column="21" selection-start-line="1" selection-start-column="21" selection-end-line="1" selection-end-column="21" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/obj0/src/test_environment.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="165">
+          <caret line="11" column="13" lean-forward="true" selection-start-line="11" selection-start-column="13" selection-end-line="11" selection-end-column="84" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/obj1/code/data_hygiene/__init__.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="15">
+          <caret line="1" column="21" selection-start-line="1" selection-start-column="21" selection-end-line="1" selection-end-column="21" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/obj1/code/ground_zero_test/file_columns.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="481">
+          <caret line="46" lean-forward="true" selection-start-line="46" selection-end-line="46" />
           <folding>
-            <element signature="e#10#19#0" expanded="true" />
+            <element signature="e#0#43#0" expanded="true" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/obj1/code/ground_zero_test/data_format.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="120">
+          <caret line="8" column="12" lean-forward="true" selection-start-line="8" selection-start-column="12" selection-end-line="8" selection-end-column="95" />
+          <folding>
+            <element signature="e#11#30#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/obj1/code/data_anomaly_detection/__init__.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <caret selection-end-line="1" selection-end-column="21" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/obj1/code/data_anomaly_detection/bucketing_for_variables.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <caret column="9" lean-forward="true" selection-start-column="9" selection-end-column="9" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/obj1/code/data_hygiene/incorrect_feature_values.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <caret column="1" selection-start-column="1" selection-end-column="1" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/obj0/src/word_count.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="826">
+          <caret line="60" lean-forward="true" selection-start-line="60" selection-end-line="60" />
+          <folding>
+            <element signature="e#10#50#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/obj1/code/data_hygiene/range.json">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/obj1/code/data_hygiene/feature_range.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <folding>
+            <element signature="e#9#52#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/obj1/src/README.md">
+      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
+        <state split_layout="SPLIT">
+          <first_editor relative-caret-position="1380">
+            <caret line="92" lean-forward="true" selection-start-line="92" selection-end-line="92" />
+          </first_editor>
+          <second_editor />
         </state>
       </provider>
     </entry>

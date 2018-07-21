@@ -1,7 +1,3 @@
-"""
-
-"""
-
 import os
 from utils.test_utils import *
 from pyspark.ml.clustering import KMeans

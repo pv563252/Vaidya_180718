@@ -1,5 +1,5 @@
 """
-
+Uncomment the lines below to run this test.
 """
 
 
@@ -8,8 +8,8 @@ from obj0.src import word_count
 
 def test_environment():
     """
-
-    :return:
+    Test to check the environment setup.
+    :return: Runs successfully for correct config, console outputs errors otherwise.
     """
     try:
         word_count.word_count()

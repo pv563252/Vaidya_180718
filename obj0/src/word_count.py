@@ -1,7 +1,3 @@
-"""
-
-"""
-
 from utils.spark_utils import SparkUtils
 from utils.extractor_utils import url_text_reader, writer
 import os
@@ -10,8 +6,8 @@ import re
 
 def word_count():
     """
-
-    :return:
+    Function to count the number of words as a part of the environment test.
+    :return: Saves output to /obj0/out
     """
     spark = SparkUtils()
     path = pre_processing()
@@ -32,12 +28,11 @@ def word_count():
         spark.close_spark()
 
 
-
 def write_results(spark_df, spark):
     """
-
-    :param spark_df:
-    :param spark:
+    Writes results to csv
+    :param spark_df: Spark Dataframe object
+    :param spark: Object of Spark Utils Class.
     :return:
     """
     spark.write_spark_df_to_csv(spark_df)
@@ -47,16 +42,16 @@ def write_results(spark_df, spark):
 
 def normalize_words(text):
     """
-
-    :param text:
-    :return:
+    Function to extract and clean words from strings.
+    :param text: string of text
+    :return: words from string of text
     """
     return re.compile(r'\W+', re.UNICODE).split(text.lower())
 
 
 def pre_processing():
     """
-
+    Function to get the data from specified location.
     :return:
     """
     filepath = os.getcwd() + "/testfile.txt"

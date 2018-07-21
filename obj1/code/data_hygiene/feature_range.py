@@ -1,6 +1,3 @@
-"""
-
-"""
 from utils.extractor_utils import read_json
 from utils.test_utils import *
 from utils.spark_utils import SparkUtils
@@ -9,8 +6,8 @@ import os
 
 def feature_range_test(df, range_path=os.getcwd()+'/range.json'):
     """
-
-    :param df:
+    Test the range of the feature to find missing values.
+    :param df: PandasDF object
     :param range_path:
     :return:
     """
