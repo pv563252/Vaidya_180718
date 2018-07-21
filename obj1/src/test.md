@@ -35,7 +35,7 @@ Given the dataset, the most important data integrity questions to ask the datase
 #### Non Identifiable Issues
 
 | Issue | Issue Tye |
-| --- | --- | --- | --- | --- | --- | --- |
+| ---   | --- |
 | Data Hygiene | Missing Feature Values due to Data Collection Errors |
 | Data Hygiene | Loss of Data due to manual entry errors or System Errors Upstream |
 | Outliers | Custom Anomaly Detection |
