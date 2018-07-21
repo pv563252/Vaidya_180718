@@ -16,7 +16,8 @@ The problem can be solved by standardization practices. Common problems include:
 
 2. Column Mapping Issues _Implemented_:
     1. Given dataset, and expected columns, the columns interpreted by the reader are different from expected.
-    2. This could happen for a variety of reasons including missing features, as well as file format issues (expected comma as delimiter but got tabs, etc.).
+    2. Given dataset, and expected column types, the columns interpreted by the reader are different from expected.
+    3. This could happen for a variety of reasons including missing features, as well as file format issues (expected comma as delimiter but got tabs, etc.).
 
 
 Tracking the issues also allows to add these issues into an ongoing test framework, to avoid future issues of similar types.
@@ -42,7 +43,7 @@ These questions are directly tied to the outcomes of the research, thereby indic
 
 ## Test Definition: Data Hygiene
 
-1. Missing Feature Values due to Errors:
+1. Missing Feature Values due to Errors _Implemented_:
     1. Statistical Analysis of missing values, as well as range analysis, using the Dataset information provided in the document.
     2. Building a threshold to understand if these errors are statistically significant to call out, and if they would impact the final analysis.
 
@@ -53,7 +54,8 @@ These questions are directly tied to the outcomes of the research, thereby indic
 
 3. Upstream Data Wrangling Errors:
     1. Data could have been corrupted due to manual data entry errors in the upstream process during De-Identification, or other tasks.
-    2. Some algorithms exist to test this, but a better understanding of the upstream process would allow for a better test suite recommendation.
+    2. Loss of Information during Upstream automated analysis could also happen based on treatment of feature data types. For example: conversion of base float values to integers, etc.
+    3. Some algorithms exist to test this, but a better understanding of the upstream process would allow for a better test suite recommendation.
 
 
 ## Test Definition: Anomaly Detection
@@ -65,18 +67,20 @@ These questions are directly tied to the outcomes of the research, thereby indic
 2. Anomaly Detections using Unsupervised Learning: Principal Component Analysis
     1. Given that we have no understanding of the truth-set or training data, we can use Principal Component Analysis.
     2. PCA allows us to define the normal patterns, and these normal patterns can be used to identify outliers.
+
 3. Anomaly Detections using Unsupervised Learning: Clustering *Implemented*
     1. Given that we have no understanding of the truth-set or training data, we can use K-Means clustering, and Hierarchical K-Means clustering to fit the data.
     2. Visually look at the data for outliers.
+    3. Alternatively, build out the threshold with the distance metric to identify outliers.
 
 
 ## Test Definition: Dataset Bias Checks
 
-The test included are conducted on a mulitvariate level, assessing each feature with respect to other features.
-
-1.
+1. Attrition:
+    1. In order to have this view of the data, we would need
+    2. An attrition rate of under 5% is usually no concern (Schulz and Grimes, 2002), while rates in excess of 20% may be cause for concern. However, these aren’t steadfast rules — a study with a low attrition rate might be more susceptible to bias than a study with a higher attrition rate if the drop-outs have very unique characteristics.
 2.
-3.
+3. Selection Bias: A type of
 
 
 ## Other important considerations not covered in the tests above:

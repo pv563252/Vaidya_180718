@@ -4,7 +4,6 @@
 
 import findspark
 import pyspark
-import pandas as pd
 import os
 
 

@@ -1,0 +1,24 @@
+/Users/pv/PycharmProjects/base/venv/bin/python /Users/pv/PycharmProjects/Vaidya_180718/obj1/code/ground_zero_test/data_format.py
+
+###########################################################
+Starting Test Starting Ground Zero Test Suite
+###########################################################
+###########################################################
+Starting Test Test 1: Feature Test.
+###########################################################
+###########################################################
+The Test Passed: Test 1A: Missing Columns
+Test Result: Test Passed
+###########################################################
+###########################################################
+The Test Passed: Test 1A: Additional Column Check
+Test Result: Test Passed
+###########################################################
+###########################################################
+Ending Test Test 1: Feature Test.
+###########################################################
+###########################################################
+Ending Test Ground Zero Test Suite
+###########################################################
+
+Process finished with exit code 0

@@ -1,0 +1,47 @@
+{
+  "ER30000": {
+    "type": "Integer",
+    "low" : 1,
+    "high": 4
+  },
+  "ER30001": {
+    "type": "Integer",
+    "low" : 1,
+    "high": 9308
+  },
+  "ER30002": {
+    "type": "Integer",
+    "low":1,
+    "high": 399
+  },
+  "ER34101": {
+    "type": "Integer",
+    "low":0,
+    "high": 8941
+  },
+  "ER34102": {
+    "type": "Integer",
+    "low":0,
+    "high": 89
+  },
+  "ER34103": {
+    "type": "Integer",
+    "low":0,
+    "high": 98
+  },
+  "ER34104": {
+    "type": "Integer",
+    "low":0,
+    "high": 999
+  },
+  "ER34105": {
+    "type": "Integer",
+    "low":0,
+    "high": 99
+  },
+  "ER34106": {
+    "type": "Integer",
+    "low":0,
+    "high": 99
+  }
+}

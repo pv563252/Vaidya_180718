@@ -1,29 +1,19 @@
-"""
-
-"""
-
-
 import pandas as pd
 from utils.test_utils import *
-from obj1.code.ground_zero_test.file_columns import test_headers
+from obj1.code.data_anomaly_detection import clustering
 
 
-def data_format():
+def data_anomalies():
     """
 
     :return:
     """
     try:
-        begin_test_message("Starting Ground Zero Test Suite")
+        begin_test_message("Starting Anomaly Test Suite")
         df = pd.read_excel('/Users/pv/Desktop/jpmc_rse_assignment/jpmc_rse_assignment_data.xlsx')
-        test_headers(list(df.columns))
+
     except Exception as e:
         print('###########################################################')
-        print("An Error happened during Ground Zero Test Suite Execution")
+        print("An Error happened during Anomaly Test Suite Execution")
         print(e)
         print('###########################################################')
-    finally:
-        end_test_message("Ground Zero Test Suite")
-
-
-data_format()

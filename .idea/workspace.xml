@@ -1,7 +1,15 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="fc1a999f-5fe5-484b-a02c-064f1b2afda6" name="Default" comment="" />
+    <list default="true" id="fc1a999f-5fe5-484b-a02c-064f1b2afda6" name="Default" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/obj1/__init__.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/obj1/code/__init__.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/obj1/code/data_hygiene/missing_feature_test.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/obj1/code/data_hygiene/missing_values_test.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/obj1/src/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/obj1/src/README.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/utils/spark_utils.py" beforeDir="false" afterPath="$PROJECT_DIR$/utils/spark_utils.py" afterDir="false" />
+    </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -11,32 +19,47 @@
   </component>
   <component name="FileEditorManager">
     <leaf>
-      <file leaf-file-name="README.md" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/obj1/src/README.md">
+      <file leaf-file-name="missing_feature_values.py" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/obj1/code/data_hygiene/missing_feature_values.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="225">
-              <caret line="43" column="113" selection-start-line="43" selection-start-column="113" selection-end-line="43" selection-end-column="113" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="data_format.py" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/obj1/code/ground_zero_test/data_format.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="405">
-              <caret line="27" lean-forward="true" selection-start-line="27" selection-end-line="27" />
+            <state relative-caret-position="60">
+              <caret line="4" lean-forward="true" selection-start-line="4" selection-end-line="4" />
               <folding>
-                <element signature="e#11#30#0" expanded="true" />
+                <element signature="e#10#29#0" expanded="true" />
               </folding>
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="README.md" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/obj2/out/README.md">
+      <file leaf-file-name="feature_type_test.py" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/obj1/code/data_hygiene/feature_type_test.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="60">
-              <caret line="4" column="18" lean-forward="true" selection-start-line="4" selection-start-column="18" selection-end-line="4" selection-end-column="18" />
+            <state relative-caret-position="255">
+              <caret line="17" selection-start-line="17" selection-end-line="17" />
+              <folding>
+                <element signature="e#10#40#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="clustering.py" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/obj1/code/data_anomaly_detection/clustering.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="47">
+              <caret line="14" column="89" lean-forward="true" selection-start-line="14" selection-end-line="14" selection-end-column="89" />
+              <folding>
+                <element signature="e#0#40#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="range.json" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/obj1/code/data_hygiene/range.json">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="525">
+              <caret line="35" column="4" lean-forward="true" selection-start-line="35" selection-start-column="4" selection-end-line="35" selection-end-column="4" />
             </state>
           </provider>
         </entry>
@@ -44,8 +67,8 @@
       <file leaf-file-name="file_columns.py" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/obj1/code/ground_zero_test/file_columns.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="196">
-              <caret line="27" column="7" lean-forward="true" selection-start-line="27" selection-start-column="7" selection-end-line="27" selection-end-column="7" />
+            <state relative-caret-position="481">
+              <caret line="46" selection-start-line="46" selection-end-line="46" />
               <folding>
                 <element signature="e#0#43#0" expanded="true" />
               </folding>
@@ -53,20 +76,23 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="test_utils.py" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/utils/test_utils.py">
+      <file leaf-file-name="feature_range.py" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/obj1/code/data_hygiene/feature_range.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="300">
-              <caret line="20" column="18" lean-forward="true" selection-start-line="20" selection-start-column="18" selection-end-line="20" selection-end-column="18" />
+            <state relative-caret-position="90">
+              <caret line="6" selection-start-line="6" selection-end-line="6" selection-end-column="9" />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="headers.json" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/obj1/code/ground_zero_test/headers.json">
+      <file leaf-file-name="spark_utils.py" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/utils/spark_utils.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="226">
-              <caret line="55" column="35" lean-forward="true" selection-start-line="55" selection-start-column="35" selection-end-line="55" selection-end-column="35" />
+            <state relative-caret-position="240">
+              <caret line="16" column="45" selection-start-line="16" selection-start-column="13" selection-end-line="16" selection-end-column="45" />
+              <folding>
+                <element signature="e#10#26#0" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -105,13 +131,26 @@
         <option value="$PROJECT_DIR$/utils/extractor_utils.py" />
         <option value="$PROJECT_DIR$/obj0/src/test_environment.py" />
         <option value="$PROJECT_DIR$/utils/test_utils.py" />
-        <option value="$PROJECT_DIR$/obj1/code/ground_zero_test/file_columns.py" />
         <option value="$PROJECT_DIR$/obj1/code/ground_zero_test/column_values.py" />
         <option value="$PROJECT_DIR$/obj1/code/ground_zero_test/column_data_range.py" />
         <option value="$PROJECT_DIR$/obj1/code/ground_zero_test/Data Hygiene/missing_feature_test.py" />
         <option value="$PROJECT_DIR$/obj1/code/ground_zero_test/Data Hygiene/missing_values_test.py" />
-        <option value="$PROJECT_DIR$/obj1/src/README.md" />
         <option value="$PROJECT_DIR$/obj1/code/ground_zero_test/data_format.py" />
+        <option value="$PROJECT_DIR$/obj1/code/anomaly_detection/clustering.py" />
+        <option value="$PROJECT_DIR$/obj1/code/data_anomaly_detection/data_anomalies.py" />
+        <option value="$PROJECT_DIR$/utils/spark_utils.py" />
+        <option value="$PROJECT_DIR$/obj1/out/ground_zero.py" />
+        <option value="$PROJECT_DIR$/obj1/out/data_hygiene/testoutput.txt" />
+        <option value="$PROJECT_DIR$/obj1/code/data_hygiene/feature_data_type.py" />
+        <option value="$PROJECT_DIR$/obj1/src/README.md" />
+        <option value="$PROJECT_DIR$/obj1/code/data_anomaly_detection/clustering.py" />
+        <option value="$PROJECT_DIR$/obj1/code/data_hygiene/analyze_categorical_data.py" />
+        <option value="$PROJECT_DIR$/obj1/code/data_hygiene/range.json" />
+        <option value="$PROJECT_DIR$/obj1/code/data_hygiene/feature_range.py" />
+        <option value="$PROJECT_DIR$/obj1/code/ground_zero_test/file_columns.py" />
+        <option value="$PROJECT_DIR$/obj1/code/ground_zero_test/data_type_test.py" />
+        <option value="$PROJECT_DIR$/obj1/code/data_hygiene/missing_feature_values.py" />
+        <option value="$PROJECT_DIR$/obj1/code/data_hygiene/feature_type_test.py" />
       </list>
     </option>
   </component>
@@ -136,6 +175,66 @@
             <path>
               <item name="Vaidya_180718" type="b2602c69:ProjectViewProjectNode" />
               <item name="Vaidya_180718" type="462c0819:PsiDirectoryNode" />
+              <item name="obj0" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="Vaidya_180718" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Vaidya_180718" type="462c0819:PsiDirectoryNode" />
+              <item name="obj0" type="462c0819:PsiDirectoryNode" />
+              <item name="out" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="Vaidya_180718" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Vaidya_180718" type="462c0819:PsiDirectoryNode" />
+              <item name="obj0" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="Vaidya_180718" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Vaidya_180718" type="462c0819:PsiDirectoryNode" />
+              <item name="obj1" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="Vaidya_180718" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Vaidya_180718" type="462c0819:PsiDirectoryNode" />
+              <item name="obj1" type="462c0819:PsiDirectoryNode" />
+              <item name="code" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="Vaidya_180718" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Vaidya_180718" type="462c0819:PsiDirectoryNode" />
+              <item name="obj1" type="462c0819:PsiDirectoryNode" />
+              <item name="code" type="462c0819:PsiDirectoryNode" />
+              <item name="data_anomaly_detection" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="Vaidya_180718" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Vaidya_180718" type="462c0819:PsiDirectoryNode" />
+              <item name="obj1" type="462c0819:PsiDirectoryNode" />
+              <item name="code" type="462c0819:PsiDirectoryNode" />
+              <item name="data_hygiene" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="Vaidya_180718" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Vaidya_180718" type="462c0819:PsiDirectoryNode" />
+              <item name="obj1" type="462c0819:PsiDirectoryNode" />
+              <item name="code" type="462c0819:PsiDirectoryNode" />
+              <item name="ground_zero_test" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="Vaidya_180718" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Vaidya_180718" type="462c0819:PsiDirectoryNode" />
+              <item name="obj2" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="Vaidya_180718" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Vaidya_180718" type="462c0819:PsiDirectoryNode" />
+              <item name="obj2" type="462c0819:PsiDirectoryNode" />
+              <item name="out" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="Vaidya_180718" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Vaidya_180718" type="462c0819:PsiDirectoryNode" />
               <item name="utils" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
@@ -151,6 +250,7 @@
   </component>
   <component name="RecentsManager">
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/obj1/out/ground_zero" />
       <recent name="$PROJECT_DIR$/obj1/code/ground_zero_test" />
       <recent name="$PROJECT_DIR$/obj1/code" />
       <recent name="$PROJECT_DIR$/obj1/code/ground_zero_test/expected_values" />
@@ -173,7 +273,25 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Python.data_format">
+  <component name="RunManager" selected="Python.missing_feature_values">
+    <configuration name="clustering" type="PythonConfigurationType" factoryName="Python" temporary="true">
+      <module name="Vaidya_180718" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/obj1/code/data_anomaly_detection" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/obj1/code/data_anomaly_detection/clustering.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+    </configuration>
     <configuration name="data_format" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <module name="Vaidya_180718" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -187,6 +305,24 @@
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <option name="SCRIPT_NAME" value="$PROJECT_DIR$/obj1/code/ground_zero_test/data_format.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+    </configuration>
+    <configuration name="missing_feature_values" type="PythonConfigurationType" factoryName="Python" temporary="true">
+      <module name="Vaidya_180718" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/obj1/code/data_hygiene" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/obj1/code/data_hygiene/missing_feature_values.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -232,9 +368,13 @@
       <item itemvalue="Python.word_count" />
       <item itemvalue="Python.test" />
       <item itemvalue="Python.data_format" />
+      <item itemvalue="Python.clustering" />
+      <item itemvalue="Python.missing_feature_values" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Python.missing_feature_values" />
+        <item itemvalue="Python.clustering" />
         <item itemvalue="Python.data_format" />
         <item itemvalue="Python.test" />
       </list>
@@ -255,15 +395,16 @@
   </component>
   <component name="ToolWindowManager">
     <frame x="271" y="38" width="1400" height="1000" extended-state="0" />
+    <editor active="true" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.25" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.25" />
       <window_info anchor="bottom" id="TODO" order="6" />
       <window_info anchor="bottom" id="Event Log" side_tool="true" />
-      <window_info anchor="bottom" id="Run" order="2" weight="0.32937366" />
+      <window_info anchor="bottom" id="Run" order="2" visible="true" weight="0.32937366" />
       <window_info anchor="bottom" id="Version Control" />
       <window_info anchor="bottom" id="Python Console" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
-      <window_info active="true" anchor="bottom" id="Terminal" visible="true" weight="0.32937366" />
+      <window_info anchor="bottom" id="Terminal" weight="0.32937366" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
       <window_info id="Favorites" side_tool="true" />
       <window_info anchor="bottom" id="Find" order="1" />
@@ -298,13 +439,6 @@
     <option name="myLimit" value="2678400000" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/requirements.txt">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="75">
-          <caret line="5" column="11" lean-forward="true" selection-start-line="5" selection-start-column="11" selection-end-line="5" selection-end-column="11" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/README.md">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="150">
@@ -319,43 +453,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/obj0/src/word_count.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="420">
-          <caret line="28" column="76" lean-forward="true" selection-start-line="25" selection-start-column="8" selection-end-line="28" selection-end-column="76" />
-          <folding>
-            <element signature="e#10#50#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/utils/extractor_utils.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="495">
-          <caret line="33" column="24" selection-start-line="33" selection-start-column="4" selection-end-line="33" selection-end-column="24" />
-          <folding>
-            <element signature="e#10#31#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/obj1/code/ground_zero_test/column_data_type.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="15">
           <caret line="1" selection-start-line="1" selection-end-line="1" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/obj1/code/data_hygiene/missing_values_test.py">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/obj1/code/data_hygiene/missing_feature_test.py">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/obj1/src/README.md">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="225">
-          <caret line="43" column="113" selection-start-line="43" selection-start-column="113" selection-end-line="43" selection-end-column="113" />
         </state>
       </provider>
     </entry>
@@ -376,30 +477,154 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/obj1/code/ground_zero_test/file_columns.py">
+    <entry file="file://$PROJECT_DIR$/obj2/out/README.md">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="196">
-          <caret line="27" column="7" lean-forward="true" selection-start-line="27" selection-start-column="7" selection-end-line="27" selection-end-column="7" />
+        <state relative-caret-position="60">
+          <caret line="4" column="18" selection-start-line="4" selection-start-column="18" selection-end-line="4" selection-end-column="18" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/obj1/code/data_hygiene/missing_values_test.py">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/obj1/code/data_hygiene/missing_feature_test.py">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/requirements.txt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="75">
+          <caret line="5" column="11" selection-start-line="5" selection-start-column="11" selection-end-line="5" selection-end-column="11" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/obj1/out/ground_zero.py">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/obj1/out/ground_zero/testoutput.txt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="255">
+          <caret line="17" column="55" lean-forward="true" selection-start-line="17" selection-start-column="55" selection-end-line="17" selection-end-column="55" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/obj0/src/word_count.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="480">
+          <caret line="32" selection-start-line="32" selection-end-line="32" />
           <folding>
-            <element signature="e#0#43#0" expanded="true" />
+            <element signature="e#10#50#0" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/obj1/src/README.md">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="435">
+          <caret line="79" column="60" selection-start-line="79" selection-start-column="60" selection-end-line="79" selection-end-column="60" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/obj1/code/data_hygiene/analyze_categorical_data.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="120">
+          <caret line="8" column="36" lean-forward="true" selection-start-line="8" selection-start-column="36" selection-end-line="8" selection-end-column="36" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/obj1/code/data_hygiene/missing_value_handling.json">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
     <entry file="file://$PROJECT_DIR$/obj1/code/ground_zero_test/data_format.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="405">
-          <caret line="27" lean-forward="true" selection-start-line="27" selection-end-line="27" />
+        <state relative-caret-position="345">
+          <caret line="23" column="76" lean-forward="true" selection-start-line="19" selection-start-column="4" selection-end-line="23" selection-end-column="76" />
           <folding>
             <element signature="e#11#30#0" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/obj2/out/README.md">
+    <entry file="file://$PROJECT_DIR$/obj1/code/data_anomaly_detection/data_anomalies.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="15">
+          <caret line="1" selection-start-line="1" selection-end-line="1" selection-end-column="30" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/utils/extractor_utils.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="495">
+          <caret line="33" column="24" selection-start-line="33" selection-start-column="4" selection-end-line="33" selection-end-column="24" />
+          <folding>
+            <element signature="e#10#31#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/utils/spark_utils.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="240">
+          <caret line="16" column="45" selection-start-line="16" selection-start-column="13" selection-end-line="16" selection-end-column="45" />
+          <folding>
+            <element signature="e#10#26#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/obj1/code/data_hygiene/range.json">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="525">
+          <caret line="35" column="4" lean-forward="true" selection-start-line="35" selection-start-column="4" selection-end-line="35" selection-end-column="4" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/obj1/code/ground_zero_test/data_type_test.py">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/obj1/code/ground_zero_test/file_columns.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="481">
+          <caret line="46" selection-start-line="46" selection-end-line="46" />
+          <folding>
+            <element signature="e#0#43#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/obj1/code/data_hygiene/missing_feature_values.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="60">
-          <caret line="4" column="18" lean-forward="true" selection-start-line="4" selection-start-column="18" selection-end-line="4" selection-end-column="18" />
+          <caret line="4" lean-forward="true" selection-start-line="4" selection-end-line="4" />
+          <folding>
+            <element signature="e#10#29#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/obj1/code/data_hygiene/feature_range.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="90">
+          <caret line="6" selection-start-line="6" selection-end-line="6" selection-end-column="9" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/obj1/code/data_hygiene/feature_type_test.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="255">
+          <caret line="17" selection-start-line="17" selection-end-line="17" />
+          <folding>
+            <element signature="e#10#40#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/obj1/code/data_anomaly_detection/clustering.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="47">
+          <caret line="14" column="89" lean-forward="true" selection-start-line="14" selection-end-line="14" selection-end-column="89" />
+          <folding>
+            <element signature="e#0#40#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
