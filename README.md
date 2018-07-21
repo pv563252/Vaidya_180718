@@ -17,15 +17,9 @@ The table below outlines the Spark environment setup, along with the versions of
 
 ### Objective 0.1
 
-The github repo can be found at: 
-
-{% hint style="info" %}
 The code follows the structure provided in the instructions. Apart from the instructions, I have created a **utils** package that houses all the reusable modules being used in answering all the questions within the assignment. 
-{% endhint %}
 
-{% hint style="info" %}
 The motivation for creating the utils package is to make sure that the solution follows modular design patterns, and ultimately, enables reusability across projects. The utils package can be exported to another project for use when similar tasks need to be performed. 
-{% endhint %}
 
 
 
@@ -37,16 +31,14 @@ The objective of the application was to:
 * Count the number of words contained in the [README](https://raw.githubusercontent.com/ToJen/Quorum-Enterprise-Blockchain/master/README.md) of the Quorum-Enterprise-Blockchain project
 * Save the Output
 
-{% tabs %}
-{% tab title="Environment Test and Word Count" %}
+Environment Test and Word Count
 ![Spark Running Word Counts](.gitbook/assets/screen-shot-2018-07-20-at-11.09.27-am.png)
-{% endtab %}
 
-{% tab title="Save Output" %}
+
+
 The output from Spark can be saved in many ways. In this test, I hav explored two methods:
 
-{% code-tabs %}
-{% code-tabs-item title="Spark Dataframe to CSV" %}
+Spark Dataframe to CSV"
 ```python
 def write_spark_df_to_csv(self, spark_df):
     """
@@ -58,11 +50,8 @@ def write_spark_df_to_csv(self, spark_df):
     cwd = cwd.split('src')[0] + 'out'
     spark_df.write.csv(cwd + "/wordcounts_spark.csv")
 ```
-{% endcode-tabs-item %}
-{% endcode-tabs %}
 
-{% code-tabs %}
-{% code-tabs-item title="Spark Dataframe to Pandas" %}
+Spark Dataframe to Pandas"
 ```python
 def write_spark_df_to_pandas_to_csv(self, spark_df):
     """
@@ -74,11 +63,6 @@ def write_spark_df_to_pandas_to_csv(self, spark_df):
     cwd = cwd.split('src')[0] + 'out'
     spark_df.toPandas().to_csv(cwd + "/wordcounts_pandas.csv", index=False)
 ```
-{% endcode-tabs-item %}
-{% endcode-tabs %}
-{% endtab %}
-{% endtabs %}
-
 
 
 ### Appendix
