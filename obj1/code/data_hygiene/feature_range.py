@@ -29,10 +29,10 @@ def feature_range_test(df, range_path=os.getcwd()+'/range.json'):
             root_cause_analysis(anomalies_low, each)
             columns.append(each)
     if len(columns) > 0:
-        test_result_handler("Test 1A: Feature Range Test", False,
+        test_result_handler("Test 2: Feature Range Test", False,
                             "Some columns had values outside of expected values", set(columns))
     else:
-        test_result_handler("Test 1A: Feature Range Test", True)
+        test_result_handler("Test 2: Feature Range Test", True)
     spark.close_spark()
 
 
