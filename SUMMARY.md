@@ -1,6 +1,6 @@
 # Table of contents
 
-* [Vaidya\_180718](README.md)
-* [obj1](obj1/README.md)
-  * [Data Integrity](obj1/src.md)
+* [JPMC Institute - Take Home Test](README.md)
+* [Objective 0: Environment Setup](untitled.md)
+* [Objective 1: Data Integrity](untitled-1.md)
 
