@@ -159,7 +159,7 @@ Data Error Tests:
 
 In data mining, **anomaly detection** \(also outlier **detection**\) is the identification of items, events or observations which do not conform to an expected pattern or other items in a dataset.
 
-1. Statistical Anomaly Detection for Categorical Features **POC**
+1. Statistical Anomaly Detection for Categorical Features
 
    1. Statistical Summary of dataset features long with percentiles and IQR.
    2. Test the feature value distribution, and detect outliers wrt to Expected. 
@@ -174,6 +174,18 @@ In data mining, **anomaly detection** \(also outlier **detection**\) is the iden
    1. Given that we have no understanding of the truth-set or training data, we can use K-Means clustering, and Hierarchical K-Means clustering to fit the data.
    2. Build out the threshold with the cluster center to identify outliers.
    3. Easy to visualize and communicate. 
+
+
+*Comparing Costs of Tests*
+
+
+| Test | Cost | Code Dir | Output Dir |
+| ---   | --- | --- | --- | 
+| Statistical | O(size of dataframe) | NA | NA |
+| PCA | O(size of dataframe) | NA | NA |
+| Range Test | O(size of dataframe) | /code/data_hygiene | /out/data_hygiene/range_tests |
+
+
 
 #### Data Quality Tests
 
@@ -196,16 +208,11 @@ Data Quality Tests have been carried out keeping in mind the Data quality tolera
    2. This technique could be implemented once we have a better understanding of the truth set. 
    3. Decision Trees can be used to select the useful data, or data quality. 
    
-   
-###Comapring Costs of Tests
+*Comparing Costs of Tests*
 
 
 | Test | Cost | Code Dir | Output Dir |
 | ---   | --- | --- | --- | 
-| Path Parsing | O(len of path) | NA | NA|
-| Data Load Test | O(size of dataframe) | NA | NA|
-| Lower Level Test | O(size of dataframe) | /code/ground_zero | /out/ground_zero |
-
-| Data Quality | Selection Bias |
-| Data Quality  | Attrition |
-| Research Readiness | Ability to Join with other datasets |
+| Statistical Grouped Summary | O(size of df) | /code/data_quality | /out/data_hygiene |
+| Unsupervised Classification | O(size of dataframe) | NA | NA |
+| Supervised Classification | O(size of dataframe) | NA | NA |
