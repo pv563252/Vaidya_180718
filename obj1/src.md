@@ -4,15 +4,11 @@ Using a modified version of the Panel Study of Income Dynamics, produced by the 
 
 
 
-{% tabs %}
-{% tab title="First Tab" %}
-blah blah 
-{% endtab %}
+### 
 
-{% tab title="blah blah" %}
-
-{% endtab %}
-{% endtabs %}
+| 123 | 123 |
+| --- | --- |
+|  |  |
 
 ## Ground Zero Test
 
