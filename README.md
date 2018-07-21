@@ -1,6 +1,6 @@
-# Objective 0: Environment Setup
+## Getting Started
 
-## Analytic Environment
+### Objective 0: Environment Setup
 
 The table below outlines the Spark environment setup, along with the versions of the environment, that I have used moving forward in the test:
 
@@ -12,9 +12,6 @@ The table below outlines the Spark environment setup, along with the versions of
 | Spark  | Version 2.2.0 |
 | Python | Python 3.6.5 |
 | PySpark  | py4j-0.10.4 pyspark-2.2.0 |
-
-
- ## Getting Started
  
 These instructions will get you a copy of the project up and running on your local machine for development and testing purposes.
  
@@ -57,6 +54,9 @@ These instructions will get you a copy of the project up and running on your loc
  Test Ran Successfully!
  ###########################################################
 ```
+
+## Test Objectives
+
 
 ### Objective 0.1
 

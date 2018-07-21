@@ -6,10 +6,10 @@ from pyspark.ml.feature import VectorAssembler
 
 def bucketing_for_variable(df, columns):
     """
-
-    :param df:
-    :param columns:
-    :return:
+    KMeans Clustering Based Test for testing the Anomalies in the data.
+    :param df: SparkDf object
+    :param columns: list of columns
+    :return:  Runs successfully for correct config of dataset, console outputs errors otherwise.
     """
     error_columns = []
     begin_test_message("Test 1: Bucket Test.")
@@ -28,10 +28,10 @@ def bucketing_for_variable(df, columns):
 
 def kmeans(df, column):
     """
-
-    :param df:
-    :param column:
-    :return:
+    Code to implement the clustering and assign data points to clusters
+    :param df: Sparkdf
+    :param column: Column Under Evaluation
+    :return: SparkDf from anomalous values.
     """
     filtered = df.select(column)
     vectorAss = VectorAssembler(inputCols=filtered.columns, outputCol="features")
@@ -46,10 +46,10 @@ def kmeans(df, column):
 
 def one_simple_test(transformed, centers):
     """
-
-    :param transformed:
-    :param centers:
-    :return:
+    Simple test to evaluate the ability of Kmeans clustering to detect anomalies in the given dataset.
+    :param transformed: Fitted SparkDf with predicted cluster values.
+    :param centers: Cluster centers after Kmeans
+    :return: True if test fails, False otherwise
     """
     count = 0
     for each in centers:
@@ -62,10 +62,10 @@ def one_simple_test(transformed, centers):
 
 def root_cause_analysis(anomaly_frame, each):
     """
-
-    :param anomaly_frame:
-    :param each:
-    :return:
+    Function to save the output for root cause analysis.
+    :param anomaly_frame: SparkDf object
+    :param each: Column Name
+    :return: write data to output.
     """
     path = os.getcwd().split('code')[0] + 'out/data_anomaly_detection/bucket_test/'
     if not(os.path.exists(path)):

@@ -55,6 +55,6 @@ def pre_processing():
     :return:
     """
     filepath = os.getcwd() + "/testfile.txt"
-    text = url_text_reader(url="https://raw.githubusercontent.com/ToJen/Quorum-Enterprise-Blockchain/master/README.md")
+    text = url_text_reader(url="https://raw.githubusercontent.com/ToJen/Quorum-Enterprise-Blockchain/master/request.md")
     writer(text, filepath)
     return filepath

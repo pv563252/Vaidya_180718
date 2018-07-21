@@ -1,0 +1,331 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Remediation Requests</title>
+    <meta charset="utf-8">
+    <style>
+
+      @import url(https://fonts.googleapis.com/css?family=Droid+Serif);
+      @import url(https://fonts.googleapis.com/css?family=Yanone+Kaffeesatz);
+      @import url(https://fonts.googleapis.com/css?family=Ubuntu+Mono:400,700,400italic);
+
+      body {
+        font-family: 'Droid Serif';
+      }
+      h1, h2, h3 {
+        font-family: 'Yanone Kaffeesatz';
+        font-weight: 400;
+        margin-bottom: 0;
+      }
+      .remark-slide-content h1 { font-size: 3em; }
+      .remark-slide-content h2 { font-size: 2em; }
+      .remark-slide-content h3 { font-size: 1.6em; }
+      .footnote {
+        position: absolute;
+        bottom: 3em;
+      }
+      li p { line-height: 1.25em; }
+      .red { color: #fa0000; }
+      .large { font-size: 2em; }
+      a, a > code {
+        color: rgb(249, 38, 114);
+        text-decoration: none;
+      }
+      code {
+        background: #e7e8e2;
+        border-radius: 5px;
+      }
+      .remark-code, .remark-inline-code { font-family: 'Ubuntu Mono'; }
+      .remark-code-line-highlighted     { background-color: #373832; }
+      .pull-left {
+        float: left;
+        width: 47%;
+      }
+      .pull-right {
+        float: right;
+        width: 47%;
+      }
+      .pull-right ~ p {
+        clear: both;
+      }
+      #slideshow .slide .content code {
+        font-size: 0.8em;
+      }
+      #slideshow .slide .content pre code {
+        font-size: 0.9em;
+        padding: 15px;
+      }
+      .inverse {
+        background: #272822;
+        color: #777872;
+        text-shadow: 0 0 20px #333;
+      }
+      .inverse h1, .inverse h2 {
+        color: #f3f3f3;
+        line-height: 0.8em;
+      }
+
+      /* Slide-specific styling */
+      #slide-inverse .footnote {
+        bottom: 12px;
+        left: 20px;
+      }
+      #slide-how .slides {
+        font-size: 0.9em;
+        position: absolute;
+        top:  151px;
+        right: 140px;
+      }
+      #slide-how .slides h3 {
+        margin-top: 0.2em;
+      }
+      #slide-how .slides .first, #slide-how .slides .second {
+        padding: 1px 20px;
+        height: 90px;
+        width: 120px;
+        -moz-box-shadow: 0 0 10px #777;
+        -webkit-box-shadow: 0 0 10px #777;
+        box-shadow: 0 0 10px #777;
+      }
+      #slide-how .slides .first {
+        background: #fff;
+        position: absolute;
+        top: 20%;
+        left: 20%;
+        z-index: 1;
+      }
+      #slide-how .slides .second {
+        position: relative;
+        background: #fff;
+        z-index: 0;
+      }
+
+      /* Two-column layout */
+      .left-column {
+        color: #777;
+        width: 20%;
+        height: 92%;
+        float: left;
+      }
+        .left-column h2:last-of-type, .left-column h3:last-child {
+          color: #000;
+        }
+      .right-column {
+        width: 75%;
+        float: right;
+        padding-top: 1em;
+      }
+  </style>
+  </head>
+  <body>
+    <textarea id="source">
+
+name: inverse
+layout: true
+class: center, middle, inverse
+---
+#Remediation Requests
+JPMCI <> DOA
+.footnote[To learn more about the [project](https://github.com/pv563252/Vaidya_180718)]
+---
+## Agenda
+---
+layout: false
+.left-column[
+  ##Agenda
+]
+.right-column[
+- Introduction
+
+- Tests and Remediation Requests
+
+- Open Questions and Next Steps
+]
+
+---
+layout: false
+.left-column[
+  ## Agenda
+  ## Meeting Objectives
+]
+.right-column[
+- While testing the research readiness of the dataset for one of the studies, we came across some issues that we were not able to resolve on our end, and would love your help to address!
+
+- Dataset: Modified version of the Panel Study of Income Dynamics.red[*], produced by the University of Michigan, received on .red[date].
+
+- The presentation walks through the test suite, and results, with examples.
+
+- The objective is to identify the validity of the tests, as well as to find best path forward to be able to use the dataset.
+
+.footnote[.red[*] Dataset [Documentation](https://psidonline.isr.umich.edu/Guide/default.aspx)]
+]
+---
+template: inverse
+
+## Introduction
+---
+
+.left-column[
+  ## Introduction
+]
+.right-column[
+
+New tests were added to the battery of tests JPMCI runs upon recieving the data. The test were aimed at check data readiness for research models:
+
+- Feature Data Type Analysis
+
+- Feature Data Value Analysis for Expected Value Range
+
+- Feature Data Value Analysis for Unexpected Values
+
+- Missing Data Analysis
+
+Some inconsistencies were surfaced based on the tests ran.
+]
+---
+template: inverse
+
+## Tests
+---
+layout: false
+.left-column[
+  ## Feature Data Type Analysis
+]
+.right-column[
+The expected values of all features in the dataset is Numbers.
+
+- The test was aimed at surfacing any non numerical values.
+- The values surfaced are of type String.
+
+Variables affected by the test:
+
+- ER34119: YEARS COMPLETED EDUCATION
+
+```remark
+error type: could not convert string to float: '138 5'
+```
+Possible reasons: Concatenation of different columns at source as ER34119 does not have values above 99.
+
+- ER34155: CORE/IMM INDIVIDUAL CROSS-SECTION WT
+
+```remark
+error example: could not convert string to float: ' 134   16'
+error example: could not convert string to float: '2 942'
+```
+Possible reasons: Encoding errors or file formatting errors.
+]
+---
+layout: false
+.left-column[
+  ## Feature Data Value Analysis for Expected Value Range
+]
+.right-column[
+Variables affected by the test:
+
+- ER34102: SEQUENCE NUMBER
+
+```remark
+error type: Sequence Number was 99
+        above the standard recorded range.
+```
+Possible reasons: 99 is an actual acceptable value for ER34102 to record NA, and the documentation is not updated.
+
+- ER34104: AGE OF INDIVIDUAL
+
+```remark
+error type: Sequence Number was 1004,
+        above the standard recorded range.
+```
+Possible reasons: Encoding errors or file formatting errors. Additonally, could be due to data entry errors.
+]
+---
+layout: false
+.left-column[
+  ## Feature Data Value Analysis for Unexpected Value Range
+]
+.right-column[
+Variables affected by the test:
+
+- ER34110: YEAR MOVED IN/OUT
+
+```remark
+error type: Has Negative Values
+features,prediction,count
+[-2009.0],0,2
+[-2011.0],0,3
+[-2010.0],0,2
+[0.0],0,24078
+```
+Possible reasons: Encoding errors or file formatting errors. Additionally, could be due to data entry errors.
+
+```remark
+This analysis was carried out as a POC.
+        More anomalies may surface.
+```
+]
+---
+layout: false
+.left-column[
+  ## Missing Data Analysis .red[Internal Review Needed to Establish Thresholds]
+]
+.right-column[
+The test was designed to examine the quality of the dataset with respect to a threshold. The test assumes that '0' in the dataset is not a valid value. (This can be replaced with any other value).
+
+Zero and Non Zero values can be replaced by any acceptability measure  - and test threshold needs to be established.
+
+```remark
+test_threshold to accept category: avg(zero) > avg(non_zero)
+error type example :
+ER34111,ER34112,avg(zeros),avg(non_zeros),count
+5.0,1.0,55.0,16.0,1
+1.0,1.0,40.859740259740256,30.14025974025974,385
+1.0,97.0,40.75714285714286,30.242857142857144,70
+1.0,0.0,41.81454361823002,29.185456381769978,7921
+1.0,4.0,40.2,30.8,5
+1.0,5.0,41.0,30.0,3
+1.0,2.0,40.11483253588517,30.885167464114833,418
+0.0,0.0,54.55242390078918,16.447576099210824,2661
+1.0,3.0,42.375,28.625,16
+5.0,0.0,42.66647651644799,28.333523483552007,15777
+Dataset filtered only to 2011 datapoints.
+```
+]
+---
+template: inverse
+
+## Open Questions
+---
+layout: false
+.left-column[
+  ## Open Questions
+]
+.right-column[
+1. Next Steps to address the discussed data issues.
+```remark
+Happy to provide the detailed error files/logs.
+```
+2. Are there any other Data Sources, or Metadata Stores that would allow us to fuse this dataset with others available with DOA.
+```remark
+Created metadata dictionaries in the project.
+Data Thresholds can be established with central repo available to team.
+```
+3. What would be correct way to address missing values on an ongoing basis?
+```remark
+Currently, for testing I replaced with 0.
+("99", "9999", etc.) could be a set of NA values.
+```
+]
+
+---
+name: last-page
+template: inverse
+
+## Thank you for your time!
+
+.footnote[Slideshow created using [remark](http://github.com/gnab/remark)]
+
+    </textarea>
+    <script src="https://remarkjs.com/downloads/remark-latest.min.js"></script>
+    <script>var slideshow = remark.create();</script>
+  </body>
+</html>
