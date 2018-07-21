@@ -10,7 +10,7 @@ Given the dataset, this test deals with simple issues in the dataset that could 
 The problem can be solved by standardization practices. Common problems include:
 
 
-1. File Format Issue:
+1. File Format Issue _Implemented_
     1. Given file format does not match the expected/agreed upon format.
     2. A simple test for these issues is to try loading the data into the analytics stack.
 
@@ -29,30 +29,31 @@ Given the dataset, the most important data integrity questions to ask the datase
 
 1. Data Hygiene:
     1. Is the Dataset _Complete_?
-    2. Is the Dataset missing values or features?
+    2. Is the Dataset incomplete values or features?
     3. How were the missing values dealt with?
 
 2. Data Outliers:
     1. Are there outliers in the data?
 
-3. Dataset Bias:
-    1. Is the Dataset Randomized, or is it Biased in a particular Way?
+3. Dataset Quality:
+    1. Studying the responded, and missing values. 
+    2. Is the Dataset Randomized, or is it Biased in a particular Way?
 
 These questions are directly tied to the outcomes of the research, thereby indicating Research Readiness of the dataset. Since, these tests are closer to the analytics or modelling itself, they require a deep understanding of the problem, as well as the Data Source.
 
 
 ## Test Definition: Data Hygiene
 
-1. Missing Feature Values due to Errors _Implemented_:
+1. Missing Feature Values due to Errors _Implemented_
     1. Statistical Analysis of missing values, as well as range analysis, using the Dataset information provided in the document.
     2. Building a threshold to understand if these errors are statistically significant to call out, and if they would impact the final analysis.
 
-2. Missing Feature Values to Data Collection Errors:
+2. Missing Feature Values due to Data Collection Errors 
     1. The test is designed to address the question _How were the missing values dealt with?_
     2. The Data Dictionary Document provides an overview of how the missing values are dealt with. For eg. Code '0' for no response in some cases.
     3. The test checks for these missing values, and summarizes them to be able to assess what part of the data is actually usable.
 
-3. Upstream Data Wrangling Errors:
+3. Upstream Data Wrangling Errors _Implemented_
     1. Data could have been corrupted due to manual data entry errors in the upstream process during De-Identification, or other tasks.
     2. Loss of Information during Upstream automated analysis could also happen based on treatment of feature data types. For example: conversion of base float values to integers, etc.
     3. Some algorithms exist to test this, but a better understanding of the upstream process would allow for a better test suite recommendation.
@@ -60,27 +61,34 @@ These questions are directly tied to the outcomes of the research, thereby indic
 
 ## Test Definition: Anomaly Detection
 
-1. Statistical Anomaly Detection for Features
-    1. Outcomes include stats such as Mean, Median, Highest, Lowest Values.
-    2. Visualizations like Box-Plot can be used to analyze the data for the outliers in the dataset feature, as well as compare multiple feature sets.
+1. Statistical Anomaly Detection for Categorical Features _Implemented_
+    1. Bucketing the data into different groups, and analyzing the buckets.
+    2. Each of the bucket corresponding to the feature must only have the categories 
 
 2. Anomaly Detections using Unsupervised Learning: Principal Component Analysis
     1. Given that we have no understanding of the truth-set or training data, we can use Principal Component Analysis.
     2. PCA allows us to define the normal patterns, and these normal patterns can be used to identify outliers.
 
-3. Anomaly Detections using Unsupervised Learning: Clustering *Implemented*
+3. Anomaly Detections using Unsupervised Learning: Clustering
     1. Given that we have no understanding of the truth-set or training data, we can use K-Means clustering, and Hierarchical K-Means clustering to fit the data.
-    2. Visually look at the data for outliers.
-    3. Alternatively, build out the threshold with the distance metric to identify outliers.
+    2. Build out the threshold with the distance metric to identify outliers.
 
 
-## Test Definition: Dataset Bias Checks
+## Test Definition: Dataset Quality Checks
 
-1. Attrition:
-    1. In order to have this view of the data, we would need
+1. Statistical Summary Data Quality Checks 
+    1. The test pertains to stats such as Mean, Median, Highest, Lowest Values, percentiles. _Implemented_
+    2. Visualizations such as histograms, box-plot analysis, density analysis can also be used in these tests. 
+
+2. Selection Bias _Implemented_ 
+    1. In statistics, self-selection bias arises in any situation in which individuals select themselves into a group, causing a biased sample with nonprobability sampling. Makes causation more difficult. 
+    2. It is commonly used to describe situations where the characteristics of the people which cause them to select themselves in the group create abnormal or undesirable conditions in the group. 
+    3. It is closely related to the non-response bias, describing when the group of people responding has different responses than the group of people not responding.
+    4. In the implementation that I use, I am going to test the feature set to establish data quality. 
+
+3. Attrition
+    1. In order to have this view of the data, we would need to conduct year over year analysis, which would include fusing datasets together. 
     2. An attrition rate of under 5% is usually no concern (Schulz and Grimes, 2002), while rates in excess of 20% may be cause for concern. However, these aren’t steadfast rules — a study with a low attrition rate might be more susceptible to bias than a study with a higher attrition rate if the drop-outs have very unique characteristics.
-2.
-3. Selection Bias: A type of
 
 
 ## Other important considerations not covered in the tests above:

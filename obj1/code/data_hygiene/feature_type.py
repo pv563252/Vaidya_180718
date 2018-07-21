@@ -56,4 +56,4 @@ def convert_to_float(x, each):
         print(each)
         # print(x)
         # print(type(x))
-    return  0
+    return 0
